@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/WordCountMapTest.java",
+      "testCases": [
+        {
+          "methodName": "wordCountTest1",
+          "label": "Counts unique words appearing once",
+          "description": "Verifies that the method returns correct counts when each word occurs exactly once."
+        },
+        {
+          "methodName": "wordCountTest2",
+          "label": "Counts repeated and unique words",
+          "description": "Checks that the method counts 'giraffe' twice and 'zebra' once."
+        },
+        {
+          "methodName": "wordCountTest3",
+          "label": "Counts multiple occurrences of words",
+          "description": "Ensures the method returns correct counts: apple=3, pear=2, melon=1."
+        }
+      ]
+    }
+  ]
+}
